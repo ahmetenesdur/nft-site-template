@@ -3,7 +3,6 @@ import {
   logo,
   logoAlt,
   discordUrl,
-  instagramUrl,
   twitterUrl,
   openSeaUrl,
   pages,
@@ -12,7 +11,6 @@ import {
 import Image from "next/image"
 import Link from "next/link"
 import {
-  FaInstagram,
   FaTwitter,
   FaDiscord,
   FaBars,
@@ -56,12 +54,6 @@ const MobileMenu = () => (
         link={discordUrl}
         bg="bg-gray-500"
         bgHover="hover:bg-gray-600"
-      />
-      <MediaIcon
-        icon={<FaInstagram size={28} />}
-        link={instagramUrl}
-        bg="bg-indigo-400"
-        bgHover="hover:bg-indigo-500"
       />
       <MediaIcon
         icon={<FaTwitter size={28} />}

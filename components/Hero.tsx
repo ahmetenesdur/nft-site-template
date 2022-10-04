@@ -8,7 +8,6 @@ import {
   description,
   btnText1,
   btnText2,
-  topCard,
   backCard,
   openSeaUrl,
   discordUrl,
